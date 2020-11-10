@@ -1,0 +1,104 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background: #c31432;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+	font-family: 'Bangers', cursive;
+	font-size: 35px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
+	background: #333333;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;  
+}
+/*------------------li-----------------*/
+li{
+	background: white;
+	height: 40px;
+	line-height: 40px;
+	color: #666; 
+}
+li:nth-child(2n) {
+	background-color: #a5e6e3;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1;
+}
+
+/*------------------li ends-----------------*/
+
+
+/*------------------input-----------------*/
+
+input{
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: blue;
+	border: #f7f7f7;
+}
+input:focus{
+	background-color: white;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+
+/*------------------input ends-----------------*/
+
+
+/*------------------span-----------------*/
+
+span{
+	background-color: red;
+	height: 40px;
+	margin-right: 20px;
+	color: white;
+	text-align: center;
+	width: 0px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+
+
+/*------------------span ends-----------------*/
+
+
+/*------------------classes-----------------*/
+
+.completed{
+	color: grey;
+	text-decoration: line-through;
+}
+
+.list{
+	margin: 100px auto;
+	width: 500px;
+	box-shadow: 0 0 3px rgba(0,0,0, 5);
+	background-color: #f7f7f7;
+}
+
+.fa-pencil-square-o{
+	float: right;
+}
+
+/*------------------classes ends-----------------*/
+
